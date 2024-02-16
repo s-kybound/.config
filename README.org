@@ -1,0 +1,10 @@
+* my linux rice
+*** why should you use it?
+its very cool
+* dependencies
+foot
+waybar
+sway
+swaylock
+fuzzel
+iosevka font
