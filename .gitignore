@@ -3,20 +3,8 @@
 
 # but not these
 !.gitignore
-
-# terminal
-!foot/foot.ini
-
-# application launcher
-!fuzzel/fuzzel.ini
-
-# window manager
-!sway/config
-!sway/screenshot.sh
-
-# lock manager
-!swaylock/config
-
-# bar manager
-!waybar/config
-!waybar/style.css
+!foot
+!fuzzel
+!sway
+!swaylock
+!waybar

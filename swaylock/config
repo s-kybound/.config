@@ -1,0 +1,11 @@
+# The defaults below could be overridden in $XDG_CONFIG_HOME/swaylock/config
+#  (~/.config/swaylock/config).
+#
+# Image path supports environment variables and shell expansions,
+# e.g. image=$HOME/Pictures/default.png
+color=000000
+scaling=fill
+clock
+effect-blur=13x13
+effect-vignette=0.5:0.5
+text-color=F8F8F2

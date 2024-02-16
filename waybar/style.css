@@ -1,0 +1,124 @@
+/* We can probably flip the colors to enable white mode*/
+
+@define-color base             #000000 ;
+@define-color element          #FFFFFF ;
+
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    /* undecided if I want Iosevka Aile or pragmatapro */
+    font-family: PragmataPro Liga;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+#window {
+    padding-left: 16px;
+    background-color: @base;
+    padding-right: 4px;
+}
+#waybar.stacked #window {
+    background-color: @base;
+    color: @base;
+}
+
+#waybar.empty #window {
+    color: @base;
+    background-color: @base;
+}
+
+#workspaces {
+    color: @base;
+    margin-left: 15;
+    margin-top: 15;
+    background-color: @element;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#waybar {
+    background-color: transparent;
+}
+
+#workspaces button {
+  color: @base;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  min-height: 0;
+  border-radius: 0;
+  min-width: 20px;
+  border-radius: 2;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+#workspaces button.focused {
+    color: @base;
+    border-width: 1.5;
+    border-radius: 0;
+    border-color: @base;
+}
+#workspaces button:hover {
+    color: @element;
+}
+
+#pulseaudio {
+    font-family: PragmataPro Liga;
+    font-weight: normal;
+    margin-bottom: 10;
+    margin-left: 15;
+    color: @element;
+}
+
+#network {
+    font-family: PragmataPro Liga;
+    font-weight: normal;
+    margin-bottom: 10;
+    margin-left: 15;
+    color: @element;
+}
+#custom-logout {
+    font-family: PragmataPro Liga;
+    font-weight: normal;
+    margin-bottom: 10;
+    margin-left: 15;
+    color: @element;
+}
+
+#custom-clipboard {
+    font-family: PragmataPro Liga;
+    font-weight: normal;
+    margin-bottom: 10;
+    margin-left: 15;
+    color: @element;
+}
+
+#battery {
+    margin-bottom: 10;
+    margin-left: 15;
+    font-family: PragmataPro Liga;
+    font-weight: normal;
+    color: @element;
+}
+
+#battery.full {
+    color: green;
+}
+
+#battery.warning {
+    color: orange;
+}
+#battery.critical {
+    color: red;
+}
+
+#clock {
+    margin-bottom: 20;
+    margin-left: 15;
+    font-family: PragmataPro Liga;
+    font-weight: normal;
+    color: @element;
+}
