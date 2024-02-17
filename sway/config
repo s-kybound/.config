@@ -250,7 +250,7 @@ smart_gaps inverse_outer
 default_border pixel
 
 client.focused $main_outline $main_outline $bg $main_outline
-client.focused_inactive $main_outline $main_outline $bg $main_outline
+client.focused_inactive #888888 #888888 #888888 #888888
 client.unfocused #888888 #888888 #888888 #888888
 client.urgent $main_outline $main_outline #CC0000 $main_outline
 
