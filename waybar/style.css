@@ -1,6 +1,6 @@
 /* Flip the colors to enable white mode*/
-@define-color base             #000000 ;
-@define-color element          #FFFFFF ;
+@define-color base             #FFFFFF ;
+@define-color element          #000000 ;
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */

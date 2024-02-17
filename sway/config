@@ -7,8 +7,8 @@
 ### Variables
 #
 # FLIP THESE VALUES FOR LIGHT OR DARK MODE
-set $bg #000000
-set $main_outline #FFFFFF
+set $bg #FFFFFF
+set $main_outline #000000
 #
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
