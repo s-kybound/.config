@@ -1,5 +1,4 @@
-/* We can probably flip the colors to enable white mode*/
-
+/* Flip the colors to enable white mode*/
 @define-color base             #000000 ;
 @define-color element          #FFFFFF ;
 
@@ -62,7 +61,7 @@
     border-color: @base;
 }
 #workspaces button:hover {
-    color: @element;
+    color: #cccccc;
 }
 
 #pulseaudio {

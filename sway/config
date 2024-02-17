@@ -6,6 +6,10 @@
 
 ### Variables
 #
+# FLIP THESE VALUES FOR LIGHT OR DARK MODE
+set $bg #000000
+set $main_outline #FFFFFF
+#
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 
@@ -35,7 +39,7 @@ set $menu fuzzel || pkill fuzzel
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # Requires: desktop-backgrounds-compat, swaybg
-output * bg #000000 solid_color
+output * bg $bg solid_color
 #
 # Attempt dual monitor:
 #
@@ -245,10 +249,10 @@ smart_gaps inverse_outer
 
 default_border pixel
 
-client.focused #FFFFFF #FFFFFF #000000 #FFFFFF
-client.focused_inactive #AAAAAA #AAAAAA #000000 #AAAAAA
-client.unfocused #555555 #555555 #555555 #555555
-client.urgent #FFFFFF #FFFFFF #CC0000 #FFFFFF
+client.focused $main_outline $main_outline $bg $main_outline
+client.focused_inactive $main_outline $main_outline $bg $main_outline
+client.unfocused #888888 #888888 #888888 #888888
+client.urgent $main_outline $main_outline #CC0000 $main_outline
 
 # Include configs from 3 locations:
 #  - /usr/share/sway/config.d
