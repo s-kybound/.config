@@ -60,11 +60,20 @@
     border-radius: 0;
     border-color: @base;
 }
+
 #workspaces button:hover {
     color: #cccccc;
 }
 
 #pulseaudio {
+    font-family: PragmataPro Liga;
+    font-weight: normal;
+    margin-bottom: 10;
+    margin-left: 15;
+    color: @element;
+}
+
+#idle_inhibitor {
     font-family: PragmataPro Liga;
     font-weight: normal;
     margin-bottom: 10;
@@ -79,6 +88,7 @@
     margin-left: 15;
     color: @element;
 }
+
 #custom-logout {
     font-family: PragmataPro Liga;
     font-weight: normal;
