@@ -1,6 +1,18 @@
 * my linux rice
+after many frustrations after nuking my linux workstation again and again, i have decided to move my dotfiles here in an attempt to preserve them, and keep a log of my previous styles. RIP to my old i3 config, and the japanese theme i had and lost too :(
 *** why should you use it?
 its very cool
+also light mode superiority
+*** why is light mode superior?
+| reasons why light mode good                                         |
+| i said so                                                           |
+| im smart so me saying so is truth                                   |
+| it encourages me to not work at night                               |
+| it makes text more readable (astigmatism :()                        |
+| it looks really pretty ngl                                          |
+| it feels minimalistic                                               |
+| if you grayscale every terminal colour, WOW                         |
+| everyone and their mother use dark mode, you can be built different |
 * dependencies
 foot
 waybar
