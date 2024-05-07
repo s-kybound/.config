@@ -27,7 +27,8 @@ set $term foot
 set $browser firefox
 
 # Preferred visual editor
-set $visual emacs
+set $visualtoplayer emacs
+set $visual emacs -nw
 set $editor emacs -nw
 
 # Shows a combined list of the applications with desktop files and
@@ -98,7 +99,7 @@ bindsym $mod+Ctrl+Right move workspace to output right
     bindsym $mod+z exec $editor
 
     # Start the default visual editor
-    bindsym $mod+x exec $visual
+    bindsym $mod+x exec $visualtoplayer
 
     # Kill focused window
     bindsym $mod+Shift+q kill
