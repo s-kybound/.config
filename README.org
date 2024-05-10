@@ -20,3 +20,5 @@ sway
 swaylock
 fuzzel
 iosevka font
+
+* zsh theme: common
