@@ -7,7 +7,7 @@
 ### Variables
 #
 # FLIP THESE VALUES FOR LIGHT OR DARK MODE
-set $bg #040404
+set $bg #010101
 set $main_outline #f7f7f7
 #
 # Logo key. Use Mod1 for Alt.
@@ -251,8 +251,8 @@ smart_gaps inverse_outer
 default_border pixel
 
 client.focused $main_outline $main_outline $bg $main_outline
-client.focused_inactive #b9b9b9 #b9b9b9 #b9b9b9 #b9b9b9
-client.unfocused #b9b9b9 #b9b9b9 #b9b9b9 #b9b9b9
+client.focused_inactive #525252 #525252 #525252 #525252
+client.unfocused #525252 #525252 #525252 #525252
 client.urgent $main_outline $main_outline #CC0000 $main_outline
 
 # Include configs from 3 locations:
