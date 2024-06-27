@@ -17,7 +17,7 @@
             "8": "VIII",
             "9": "IX",
             "10": "X",
-            "high-Priority-named": [ "1", "2" ],
+            "high-Priority-named": [ "1", "2" ]
         }
     },
 	"idle_inhibitor": {

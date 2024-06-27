@@ -9,7 +9,9 @@
 # FLIP THESE VALUES FOR LIGHT OR DARK MODE
 set $bg #010101
 set $main_outline #f7f7f7
-#
+# the live wallpaper to use
+set $wallpaper /home/skybound/.config/sway/life-and-death.3840x2160.mp4
+
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 
@@ -40,12 +42,17 @@ set $menu fuzzel || pkill fuzzel
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # Requires: desktop-backgrounds-compat, swaybg
-output * bg $bg solid_color
+# output * bg $bg solid_color
+swaybg_command -
+exec mpvpaper -o "--loop" '*' $wallpaper
 #
 # Attempt dual monitor:
 #
 output eDP-1 res 1920x1080
 output HDMI-A-1 res 1920x1080
+
+# animated wallpaper:
+
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
